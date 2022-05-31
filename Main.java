@@ -1,10 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int i=0;
-        while(i!=5){
-            System.out.println("explor");
-            i+=1;
-        }
-
+        System.out.print("explor");
+        System.out.println(" exi");
     }
 }
