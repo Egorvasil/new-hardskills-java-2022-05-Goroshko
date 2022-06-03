@@ -1,4 +1,4 @@
-public class Main {
+public class HomeworkLesson1_1 {
     public static void main(String[] args) {
         System.out.println("H");
         System.out.println("e");
