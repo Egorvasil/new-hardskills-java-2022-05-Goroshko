@@ -6,11 +6,12 @@ public class Main {
         System.out.println("l");
         System.out.println("o");
         System.out.println(" ");
-        System.out.println("w");
+        System.out.println("W");
         System.out.println("o");
         System.out.println("r");
         System.out.println("l");
         System.out.println("d");
+        System.out.println("!");
         
     }
 }
