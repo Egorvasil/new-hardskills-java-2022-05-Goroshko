@@ -1,4 +1,4 @@
-public class Homework4Lesson3 {
+public class HomeworkLesson3_4 {
     static int number=103281234,minimum=10,maximum=-1;
     public static void main(String[] args) {
         while(number>=10) {
