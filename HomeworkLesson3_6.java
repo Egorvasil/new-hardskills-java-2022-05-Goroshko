@@ -1,6 +1,6 @@
 import static java.lang.Math.abs;
 
-public class Homework6Lesson3 {
+public class HomeworkLesson3_6 {
     static int lenght=10;
     public static void main(String[] args) {
         for(int x=0;x!=lenght;x++){
