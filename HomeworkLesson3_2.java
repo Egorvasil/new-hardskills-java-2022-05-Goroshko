@@ -1,5 +1,5 @@
 public class HomeworkLesson3_2{
-    public static int sumFifths(int[] numbers){ // calculates the sum of a multiple of five
+    public static int sumFifths(int[] numbers){ // sum of numbers that are multiples of five
         int answer=0;
         for(int i:numbers) if(i%5==0) answer+=i;
         return answer;
