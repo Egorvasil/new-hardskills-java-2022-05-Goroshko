@@ -70,6 +70,7 @@ public class VisualizeSort {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         map=arrayMaker();
+        System.out.print("bubble, insert, selection: ");
         Scanner in = new Scanner(System.in);
         String String = in.nextLine();
         int kindSorting=0;
@@ -83,11 +84,10 @@ public class VisualizeSort {
         }
         for(int j=0;j!=42;j++) {
             if(checkArray(map)) return;
-            //map=bubbleSort(map);
             map=((kindSorting==0) ? bubbleSort(map) : ((kindSorting==1) ? insertSort(map) : selectionSort(map)));
             new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
             drawArray(map);
-            TimeUnit.MILLISECONDS.sleep(70);
+            TimeUnit.MILLISECONDS.sleep(100);
         }
     }
 }
