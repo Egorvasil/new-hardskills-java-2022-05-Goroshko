@@ -63,7 +63,7 @@ public class seaBattle {
                 return;
             }
             TimeUnit.SECONDS.sleep(2);
-            //new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
         }
     }
 }
